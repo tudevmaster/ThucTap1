@@ -1,0 +1,78 @@
+.head img {
+  width: 100px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.content {
+  background-color: rgb(232, 230, 230);
+  padding: 160px 0px 0px 0px;
+}
+.banner img {
+  width: 700px;
+  height: 700px;
+  transform: scale(1);
+  vertical-align: middle;
+
+  border-radius: 50% 50% 0% 0%;
+}
+.title-item {
+  position: relative;
+  cursor: pointer;
+  width: 115px;
+  height: 40px;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+li.active {
+  border-top-left-radius: 10px;
+  background-color: #ffa920;
+}
+li.style {
+  border-top-right-radius: 10px;
+  background-color: aliceblue;
+}
+.box-tab ul {
+  display: flex; /* Hoặc sử dụng display: grid; */
+}
+.content-tab {
+  display: flex;
+  background-color: white;
+  width: 1100px;
+  height: 100px;
+  position: relative;
+  z-index: 90;
+  border-radius: 7px;
+}
+.content-tab form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 15px 10px;
+}
+select {
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+  outline: none;
+}
+select:hover {
+  border-color: #555;
+}
+.box-tab {
+  display: flexbox;
+  margin-bottom: -15px;
+  margin-left: -42px;
+}
+
+/* Tùy chỉnh màu sắc khi được chọn */
+select:focus {
+  border-color: #888;
+}
