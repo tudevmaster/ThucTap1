@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Thêm CSS của Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <style>
+      /* Tùy chỉnh các kiểu CSS cho swiper container và card */
+      .swiper-container {
+        width: 100%;
+        padding: 20px;
+      }
+
+      .swiper-slide {
+        background-size: cover;
+        background-position: center;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Thêm cấu trúc HTML cho swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-color: #3498db">Card 1</div>
+        <div class="swiper-slide" style="background-color: #2ecc71">Card 2</div>
+        <div class="swiper-slide" style="background-color: #e74c3c">Card 3</div>
+        <div class="swiper-slide" style="background-color: #f39c12">Card 4</div>
+        <!-- Thêm các slide khác nếu cần -->
+      </div>
+    </div>
+
+    <!-- Thêm script để khởi tạo Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 4, // Số lượng card hiển thị cùng một lúc
+        spaceBetween: 20, // Khoảng cách giữa các card
+      });
+    </script>
+  </body>
+</html>

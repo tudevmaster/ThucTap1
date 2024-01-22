@@ -203,3 +203,131 @@ select:focus {
 .imaged img {
   width: 365px;
 }
+
+.wrap-search {
+  width: 100%;
+  overflow: hidden;
+}
+
+.area {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.map {
+  width: 100%;
+}
+
+.map img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  width: 300px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.direction {
+  text-align: center;
+}
+.direction button {
+  font-family: cursive;
+  font-weight: bold;
+  background-color: #ffffff44;
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.5s;
+  margin: 0 10px;
+}
+.direction button:hover {
+  background-color: #ffffff;
+}
+.item {
+  border-radius: 15px;
+  width: 300px;
+  height: 500px;
+  background-image: linear-gradient(to top, #aec0ce, #ececf2);
+  overflow: hidden;
+  transition: 0.5s;
+  margin: 10px;
+  scroll-snap-align: start;
+}
+.item .avatar {
+  display: block;
+  margin: 50px auto 10px;
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px #7e878d;
+}
+.item .content {
+  padding: 30px;
+  font-family: monospace;
+}
+.item .content table td {
+  padding: 10px 0;
+  border-bottom: 1px solid #aec0ce;
+}
+.item .content table td:nth-child(2) {
+  text-align: right;
+}
+.item .nameGroup {
+  text-align: center;
+  border-bottom: none !important;
+}
+#list {
+  display: flex;
+  width: max-content;
+}
+#formList {
+  width: 1280px;
+  max-width: 100%;
+  overflow: auto;
+  margin: 100px auto 50px;
+  scroll-behavior: smooth;
+  scroll-snap-type: both;
+}
+#formList::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  .item {
+    width: calc(33.3vw - 20px);
+  }
+  .direction {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .item {
+    width: calc(50vw - 20px);
+  }
+  .direction {
+    display: none;
+  }
+}
