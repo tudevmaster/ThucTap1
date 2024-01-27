@@ -388,3 +388,95 @@ select:focus {
   font-size: 16px;
   font-weight: 800;
 }
+.sub-box {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 152px;
+  background-color: #fff;
+  border-radius: 6px;
+  transform: translateX(-50%);
+  padding: 0px 15px;
+  font-size: 13px;
+  font-weight: 600;
+  align-items: center;
+}
+.images1 img {
+  position: relative;
+  border-radius: 10px;
+  width: 400.4px;
+  height: 190.53px;
+}
+.title1 {
+  padding-top: 3px;
+  font-size: 10px;
+}
+.title2 {
+  font-size: 10px;
+  text-decoration: none;
+  color: #ffa920;
+  font-weight: 700;
+}
+
+.read {
+  color: #ffa920;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+.info h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  color: white;
+}
+.info h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #8e8e93;
+}
+
+.info p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  color: white !important;
+}
+
+.btn2 button:hover {
+  background-color: #ffa920;
+}
+
+.btn2 button {
+  background-color: #7e878d;
+}
+
+.menufoot h5 {
+  font-weight: 700;
+}
+.menufoot {
+  color: white;
+}
+.menufoot a {
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.menufoot a:hover {
+  color: #ffa920;
+}
+.bd {
+  border-radius: 50%;
+  background-color: #120a21;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bd:hover {
+  background-color: #ffa920;
+}
